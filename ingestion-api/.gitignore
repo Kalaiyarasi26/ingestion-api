@@ -1,0 +1,11 @@
+bin/
+obj/
+*.dll
+*.pdb
+*.cache
+*.log
+*.DS_Store
+*.so
+*.dylib
+*.sqlite-journal
+*.sqbpro

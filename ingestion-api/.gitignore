@@ -1,11 +1,32 @@
+# Build output — never commit these
 bin/
 obj/
-*.dll
-*.pdb
+
+# SQLite database — never commit this
+*.db
+*.db-shm
+*.db-wal
+
+# macOS junk
+.DS_Store
+
+# Visual Studio files
+*.user
+.vs/
+
+# dotnet tool files
+.exit
+.tables
+
+# NuGet
+*.nuget.dgspec.json
+project.assets.json
+project.nuget.cache
 *.cache
-*.log
-*.DS_Store
-*.so
-*.dylib
-*.sqlite-journal
-*.sqbpro
+
+# Assembly info (auto-generated)
+*.AssemblyInfo.cs
+*.AssemblyInfoInputs.c*
+*.AssemblyReference*
+*.CoreCompileIn*
+*.FileListAbsolut*
